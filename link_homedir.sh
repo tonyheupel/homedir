@@ -8,7 +8,7 @@ function set_script_dir {
 }
 DIR=$(set_script_dir)
 cd ~
-ln -s $DIR/.bash_profile 
+ln -s $DIR/.bash_profile
 ln -s $DIR/.vim
-ln -s $DIR/.vimrc 
-
+ln -s $DIR/.vimrc
+ln -s $DIR/.gitconfig
