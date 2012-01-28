@@ -24,7 +24,7 @@ function git_prompt {
 
 
 # Prompt
-PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_prompt)\$ "
+export PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_prompt)\$ "
 
 
 # ls Alias
