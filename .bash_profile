@@ -21,7 +21,7 @@ function git_prompt {
   in_git=$?
 
   if [ $in_git -eq 1 ]; then
-    echo " (`git_revision`|`git_branch`)"
+    echo -ne " (\033[0;33m`git_revision`\033[0m|`git_branch`)"
   fi
 }
 
