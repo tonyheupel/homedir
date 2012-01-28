@@ -2,9 +2,9 @@
 function is_git_repo {
  error=$((git branch) 2>&1)
   if [[ $error == fatal:* ]]; then
-    return 0
+    echo "false"
   else
-    return 1
+    echo "true"
   fi
 }
 
@@ -17,26 +17,21 @@ function git_branch {
 }
 
 function git_prompt {
-  is_git_repo
-  in_git=$?
-
-  if [ $in_git -eq 1 ]; then
-    echo -ne " (\033[0;33m`git_revision`\033[0m|`git_branch`)"
+  if [ "$(is_git_repo)" == "true" ]; then
+    echo " (`git_revision`|`git_branch`)"
   fi
 }
 
 
 # Prompt
-PS1="\\u@\h:\\W\$(git_prompt)\$ "
+PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_prompt)\$ "
 
 
 # ls Alias
 alias ls='ls -GF'
 
 
-# tmux - ensure 256 colors
-alias tmux="TERM=screen-256color-bce tmux"
-
+# tmux - ensure 256 colors alias tmux="TERM=screen-256color-bce tmux" 
 
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
