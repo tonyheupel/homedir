@@ -41,3 +41,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
 eval "$(rbenv init -)"
+
+
+# machine-specific profile settings
+if [ -f ~/.machine_specific_profile ]; then
+  source ~/.machine_specific_profile
+fi
