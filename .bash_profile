@@ -1,6 +1,6 @@
 # Include Git integration
-if [ -f ./git_prompt.sh ]; then
-  . git_prompt.sh
+if [ -f ~/.homedir/git_prompt.sh ]; then
+  . ~/.homedir/git_prompt.sh
 fi
 
 # Prompt
