@@ -19,8 +19,9 @@ set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
 set list                          " Show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
-nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
-" Map <leader>W to 'remove all trailing whitespace'
+let mapleader="," " map leader to , instead of \
+nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
+" Map <leader>w to 'remove all trailing whitespace'
 
 " List chars
 set listchars=""                  " Reset the listchars
