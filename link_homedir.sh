@@ -22,6 +22,7 @@ mv -f ~/.bash_profile $DIR/backups/
 mv -f ~/.vim $DIR/backups/
 mv -f ~/.vimrc $DIR/backups/
 mv -f ~/.gitconfig $DIR/backups/
+mv -f ~/.tmux.conf $DIR/backups/
 
 # Set up symbolic links
 echo "Setting up symbolic links..."
@@ -29,6 +30,7 @@ ln -s $DIR/.bash_profile
 ln -s $DIR/.vim
 ln -s $DIR/.vimrc
 ln -s $DIR/.gitconfig
+ln -s $DIR/.tmux.conf
 
 # Create backup and temp folders for vim if they don't exist already
 echo "Creating _backup and _temp folders for vim..."
