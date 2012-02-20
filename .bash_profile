@@ -18,7 +18,7 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
 # Prompt
 # export PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_start_prompt)\[\033[0;33m\]\$(git_revision_prompt)\[\033[0m\]\$(git_mid_prompt)\[\033[0;\$(git_branch_prompt_color)m\]\$(git_branch_prompt)\[\033[0m\]\$(git_end_prompt)\$ "
 
-PS1='\u@\h:\[\033[0;34m\]\W\[\033[31m\]$(__git_ps1)\[\033[0m\]\$ '
+PS1='\u@\h:\[\033[0;34m\]\w\[\033[31m\]$(__git_ps1)\[\033[0m\]\$ '
 
 # ls Alias
 alias ls='ls -GF'
