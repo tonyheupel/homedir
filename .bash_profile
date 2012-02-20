@@ -8,9 +8,9 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
 
   if [ -f /opt/local/etc/bash_completion ]; then
         . /opt/local/etc/bash_completion
-      fi
+  fi
 
-# Include Git integration
+# Include my Git integration
 # if [ -f ~/.homedir/git_prompt.sh ]; then
 #   . ~/.homedir/git_prompt.sh
 # fi
@@ -24,7 +24,8 @@ PS1='\u@\h:\[\033[0;34m\]\W\[\033[31m\]$(__git_ps1)\[\033[0m\]\$ '
 alias ls='ls -GF'
 
 
-# tmux - ensure 256 colors alias tmux="TERM=screen-256color-bce tmux" 
+# tmux - ensure 256 colors 
+alias tmux="TERM=screen-256color-bce tmux"
 
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
