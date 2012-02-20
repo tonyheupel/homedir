@@ -1,12 +1,24 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+# Set git autocompletion and PS1 integration
+if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
+    . /usr/local/git/contrib/completion/git-completion.bash
+  fi
+  GIT_PS1_SHOWDIRTYSTATE=true
+
+  if [ -f /opt/local/etc/bash_completion ]; then
+        . /opt/local/etc/bash_completion
+      fi
+
 # Include Git integration
-if [ -f ~/.homedir/git_prompt.sh ]; then
-  . ~/.homedir/git_prompt.sh
-fi
+# if [ -f ~/.homedir/git_prompt.sh ]; then
+#   . ~/.homedir/git_prompt.sh
+# fi
 
 # Prompt
-export PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_start_prompt)\[\033[0;33m\]\$(git_revision_prompt)\[\033[0m\]\$(git_mid_prompt)\[\033[0;\$(git_branch_prompt_color)m\]\$(git_branch_prompt)\[\033[0m\]\$(git_end_prompt)\$ "
+# export PS1="\\u@\h:\[\033[0;34m\]\\W\[\033[0m\]\$(git_start_prompt)\[\033[0;33m\]\$(git_revision_prompt)\[\033[0m\]\$(git_mid_prompt)\[\033[0;\$(git_branch_prompt_color)m\]\$(git_branch_prompt)\[\033[0m\]\$(git_end_prompt)\$ "
 
-#PS1='\[\033[32m\]\u\[\033[00m\] \[\033[34m\]\W\[\033[33m\]$(git_prompt)\[\033[00m\]\$ '
+PS1='\u@\h:\[\033[0;34m\]\W\[\033[31m\]$(__git_ps1)\[\033[0m\]\$ '
 
 # ls Alias
 alias ls='ls -GF'
@@ -16,7 +28,7 @@ alias ls='ls -GF'
 
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 
 # machine-specific profile settings
