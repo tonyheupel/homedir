@@ -8,6 +8,9 @@ set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
 colorscheme vwilight
+set lines=35
+set columns=120
+set guifont=Monaco:h13
 filetype plugin indent on
 
 ""
