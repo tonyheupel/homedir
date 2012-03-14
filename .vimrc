@@ -10,6 +10,8 @@ set encoding=utf-8    " Set default encoding to UTF-8
 colorscheme vwilight
 set lines=35
 set columns=120
+set laststatus=2      " keep the status line on
+set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\ 
 set guifont=Monaco:h13
 filetype plugin indent on
 
@@ -66,3 +68,13 @@ set wildignore+=*.swp,*~,._*
 ""
 set backupdir=~/.vim/_backup/    " where to put backup files.
 set directory=~/.vim/_temp/      " where to put swap files.
+
+""
+"" Task List
+""
+map <leader>td <Plug>TaskList
+
+""
+"" PEP8 for Python
+""
+let g:pep8_map='<leader>8'
