@@ -64,3 +64,12 @@
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".emacs.d/plugins/coffee-mode"]
+	path = .emacs.d/plugins/coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git
+[submodule ".emacs.d/plugins/rinari"]
+	path = .emacs.d/plugins/rinari
+	url = git://github.com/eschulte/rinari.git
+[submodule ".emacs.d/plugins/textmate.el"]
+	path = .emacs.d/plugins/textmate.el
+	url = git://github.com/defunkt/textmate.el.git

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+posix.cat(${1:'${2:path}'}${3:, '${4:utf8}'})${5:.addCallback(function(content) {
+	${10:sys.puts(content);}$0
+\})};
