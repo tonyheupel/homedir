@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-posix.stat(${1:'${2:path}'}).addCallback(function(stats) {
-	${10:sys.puts("stats: " + JSON.stringify(stats));}$0
-});
