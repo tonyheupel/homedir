@@ -14,7 +14,8 @@ set lines=35
 set columns=120
 set laststatus=2      " keep the status line on
 set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\ 
-set guifont=Monaco:h13
+"set guifont=Monaco:h13
+set guifont=Menlo\ Regular:h15
 filetype plugin indent on
 
 ""
