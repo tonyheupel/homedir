@@ -7,6 +7,8 @@ set number            " Show line numbers
 set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
+"set background=dark
+"colorscheme solarized
 colorscheme vwilight
 set lines=35
 set columns=120
@@ -78,3 +80,9 @@ map <leader>td <Plug>TaskList
 "" PEP8 for Python
 ""
 let g:pep8_map='<leader>8'
+""
+"" Exuberant CTags
+""
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+let Tlist_WinWidth = 50
+map <F4> :TlistToggle<cr>
