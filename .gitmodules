@@ -6,7 +6,7 @@
 	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/jslint.vim"]
 	path = .vim/bundle/jslint.vim
-	url = git://github.com/vim-scripts/jslint.vim
+	url = git://github.com/tchype/jslint.vim
 [submodule ".vim/bundle/snipmate-nodejs"]
 	path = .vim/bundle/snipmate-nodejs
 	url = git://github.com/jamescarr/snipmate-nodejs.git
