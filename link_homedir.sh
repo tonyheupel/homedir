@@ -48,6 +48,11 @@ if [ ! -d $DIR/.vim/_temp ]; then
   mkdir $DIR/.vim/_temp
 fi
 
+# Install Command-T VIM plugin
+cd $DIR/.vim/bundle/command-t
+rake make
+cd ~
+
 # Sourcing from .bash_profile
 echo "Source from ~/.bash_profile ..."
 source ~/.bash_profile
