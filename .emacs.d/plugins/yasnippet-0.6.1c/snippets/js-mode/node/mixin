@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-process.mixin(${1:exports}, {
-	$0
-});

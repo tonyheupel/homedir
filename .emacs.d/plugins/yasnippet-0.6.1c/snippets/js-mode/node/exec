@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-sys.exec(${1:'${2:ls -al}'})${5:.addCallback(function (stdout, stderr) {
-  $0
-\})};

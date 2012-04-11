@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-.addListener("${1:event}", function(${1:data}) {
-  $0
-});

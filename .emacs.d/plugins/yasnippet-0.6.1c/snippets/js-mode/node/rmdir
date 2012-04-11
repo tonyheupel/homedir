@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-posix.mkdir(${1:'${2:path}'}, ${3:'${4:mode}'})${5:.addCallback(function() {
-	$0
-\})};

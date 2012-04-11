@@ -1,5 +1,0 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
-posix.readdir(${1:'${2:path}'})${5:.addCallback(function(files) {
-	${10:sys.p(files);}$0
-\})};
