@@ -23,8 +23,6 @@ mv -f ~/.vim $DIR/backups/
 mv -f ~/.vimrc $DIR/backups/
 mv -f ~/.gitconfig $DIR/backups/
 mv -f ~/.tmux.conf $DIR/backups/
-mv -f ~/.emacs $DIR/backups
-mv -f ~/.emacs.d $DIR/backups
 
 # Set up symbolic links
 echo "Setting up symbolic links..."
@@ -33,8 +31,6 @@ ln -s $DIR/.vim
 ln -s $DIR/.vimrc
 ln -s $DIR/.gitconfig
 ln -s $DIR/.tmux.conf
-ln -s $DIR/.emacs
-ln -s $DIR/.emacs.d
 
 # Create backup and temp folders for vim if they don't exist already
 echo "Creating _backup and _temp folders for vim..."
