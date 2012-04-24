@@ -19,6 +19,7 @@ echo "Making new backups..."
 mkdir -p $DIR/backups
 
 mv -f ~/.bash_profile $DIR/backups/
+mv -f ~/.tm_properties $DIR/backups/
 mv -f ~/.vim $DIR/backups/
 mv -f ~/.vimrc $DIR/backups/
 mv -f ~/.gitconfig $DIR/backups/
@@ -27,6 +28,7 @@ mv -f ~/.tmux.conf $DIR/backups/
 # Set up symbolic links
 echo "Setting up symbolic links..."
 ln -s $DIR/.bash_profile
+ln -s $DIR/.tm_properties
 ln -s $DIR/.vim
 ln -s $DIR/.vimrc
 ln -s $DIR/.gitconfig

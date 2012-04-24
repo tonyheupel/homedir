@@ -1,0 +1,29 @@
+exclude = "{*.{o,pyc},Icon\r,CVS,_darcs,_MTN,\{arch\},blib,*~.nib}"
+include = "{.tm_properties,.htaccess}"
+
+TM_HG  = "/opt/local/bin/hg"
+TM_GIT = "/opt/local/bin/git"
+
+[ "/usr/include/{**/,}*" ]
+tabSize = 8
+
+[ *.{txt,md,mdown,markdown} ]
+softWrap = true
+
+[ .git/COMMIT_EDITMSG ]
+softWrap         = true
+spellChecking    = true
+spellingLanguage = 'en'
+
+[ *.{icns,ico,jpg,jpeg,m4v,nib,pdf,png,psd,pyc,rtf,tif,tiff,xib} ]
+binary           = true
+
+[ source.ruby ]
+softTabs         = true
+tabSize          = 2
+
+[ "/System/Library/Frameworks/**/Headers/**/*" ]
+encoding         = "MACROMAN"
+
+[ "{README,INSTALL,LICENSE,TODO}" ]
+fileType         = "text.plain"
