@@ -7,9 +7,9 @@ set number            " Show line numbers
 set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
-set background=light  " Seems backwards, but looks better to me in terminal
 "colorscheme solarized
 colorscheme vwilight
+set background=light  " Seems backwards, but looks better to me in terminal
 set lines=35
 set columns=120
 set laststatus=2      " keep the status line on
