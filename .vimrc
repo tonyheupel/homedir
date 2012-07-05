@@ -7,15 +7,24 @@ set number            " Show line numbers
 set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
-"colorscheme solarized
+
 colorscheme vwilight
 set background=light  " Seems backwards, but looks better to me in terminal
+set guifont=Menlo\ Regular:h15
+
+if has("gui_running")
+  set background=dark
+
+  if has("gui_win32")
+    set guifont=Consolas:h14:cANSI
+  endif
+endif
+
 set lines=35
 set columns=120
 set laststatus=2      " keep the status line on
 set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\ 
-"set guifont=Monaco:h13
-set guifont=Menlo\ Regular:h15
+
 filetype plugin indent on
 
 ""
