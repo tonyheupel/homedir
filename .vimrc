@@ -16,7 +16,7 @@ if has("gui_running")
   set background=dark
 
   if has("gui_win32")
-    set guifont=Consolas:h14:cANSI
+    set guifont=Consolas:h12:cANSI
   endif
 endif
 
