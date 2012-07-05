@@ -13,5 +13,5 @@ curl https://raw.github.com/tchype/homedir/HEAD/install.sh | sh
 
 Windows
 ```shell
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://raw.github.com/tchype/homedir/head/install.ps1'))" 
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.github.com/tchype/homedir/head/install.ps1'))" 
 ```
