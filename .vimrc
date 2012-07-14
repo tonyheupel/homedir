@@ -96,3 +96,10 @@ let g:pep8_map='<leader>8'
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_WinWidth = 50
 map <F4> :TlistToggle<cr>
+
+"""
+""" closetag plugin - filetype mappings
+"""
+""" b:closetag_html_style=1 means it knows about <b>, <input>, etc.
+autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1  
+autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
