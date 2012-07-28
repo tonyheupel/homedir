@@ -22,6 +22,18 @@ binary           = true
 softTabs         = true
 tabSize          = 2
 
+[ source.js ]
+softTabs		= true
+tabSize			= 2
+
+[ source.coffee ]
+softTabs		= true
+tabSize			= 2
+
+[ source.python ]
+softTabs		= true
+tabSize			= 4
+
 [ "/System/Library/Frameworks/**/Headers/**/*" ]
 encoding         = "MACROMAN"
 
