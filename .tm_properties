@@ -1,8 +1,10 @@
 exclude = "{*.{o,pyc},Icon\r,CVS,_darcs,_MTN,\{arch\},blib,*~.nib}"
 include = "{.tm_properties,.htaccess}"
 
-# TM_HG  = "/opt/local/bin/hg"
-# TM_GIT = "/opt/local/bin/git"
+TM_HG  = "/usr/local/bin/hg"
+TM_GIT = "/usr/local/bin/git"
+
+PATH = "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/tony/.rvm/bin:/usr/local/mysql/bin"
 
 [ "/usr/include/{**/,}*" ]
 tabSize = 8
