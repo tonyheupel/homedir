@@ -29,7 +29,7 @@ hi Folded  guifg=#5f5a60 guibg=#141414 gui=NONE
 hi Normal  guifg=#f8f8f8 guibg=#141414 gui=NONE
 hi Boolean  guifg=#cf6a4c guibg=NONE gui=NONE
 hi Character  guifg=#cf6a4c guibg=NONE gui=NONE
-hi Comment  guifg=#5f5a60 guibg=NONE gui=italic
+hi Comment  guifg=#555555 guibg=NONE gui=italic
 hi Conditional  guifg=#cda869 guibg=NONE gui=NONE
 hi Constant  guifg=#cf6a4c guibg=NONE gui=NONE
 hi Define  guifg=#cda869 guibg=NONE gui=NONE
@@ -78,7 +78,7 @@ hi rubyRailsARMethod  guifg=#dad085 guibg=NONE gui=NONE
 hi rubyRailsRenderMethod  guifg=#dad085 guibg=NONE gui=NONE
 hi rubyRailsMethod  guifg=#dad085 guibg=NONE gui=NONE
 hi erubyDelimiter  guifg=NONE guibg=NONE gui=NONE
-hi erubyComment  guifg=#5f5a60 guibg=NONE gui=italic
+hi erubyComment  guifg=#555555 guibg=NONE gui=italic
 hi erubyRailsMethod  guifg=#dad085 guibg=NONE gui=NONE
 hi htmlTag  guifg=#ac885b guibg=NONE gui=NONE
 hi htmlEndTag  guifg=#ac885b guibg=NONE gui=NONE

@@ -8,17 +8,21 @@ set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
 
-colorscheme vwilight
-set background=light  " Seems backwards, but looks better to me in terminal
 set guifont=Menlo\ Regular:h15
+colorscheme vwilight  " Set this first and only set background to light for terminal mode
+                      " or the colorscheme gets messed up and no nice italic
+                      " comments
 
 if has("gui_running")
-  set background=dark
+"  set background=dark
 
   if has("gui_win32")
     set guifont=Consolas:h12:cANSI
   endif
+else
+  set background=light
 endif
+
 
 set lines=35
 set columns=120
