@@ -22,7 +22,7 @@ if has("gui_running")
 else
   set background=light
 endif
-
+set cursorline
 
 set lines=35
 set columns=120
