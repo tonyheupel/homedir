@@ -9,23 +9,27 @@ syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
 
 set guifont=Menlo\ Regular:h15
-colorscheme vwilight  " Set this first and only set background to light for terminal mode
-                      " or the colorscheme gets messed up and no nice italic
-                      " comments
 
 if has("gui_running")
-"  set background=dark
+  " Use Twilight in GUI
+  colorscheme vwilight
+  " Only set size in GUI (let terminal version fill space)
+  set lines=35
+  set columns=120
 
   if has("gui_win32")
     set guifont=Consolas:h12:cANSI
   endif
 else
-  set background=light
+  set background=dark
+  " solarized options 
+  let g:solarized_termcolors = 256
+  let g:solarized_visibility = "high"
+  let g:solarized_contrast = "high"
+  colorscheme solarized
 endif
 set cursorline
 
-set lines=35
-set columns=120
 set laststatus=2      " keep the status line on
 set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\ 
 
