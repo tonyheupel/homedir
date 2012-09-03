@@ -76,6 +76,3 @@
 [submodule ".vim/bundle/vim-json"]
 	path = .vim/bundle/vim-json
 	url = git://github.com/vim-scripts/vim-json-bundle.git
-[submodule ".vim/bundle/autoclose"]
-	path = .vim/bundle/autoclose
-	url = https://github.com/vim-scripts/AutoClose
