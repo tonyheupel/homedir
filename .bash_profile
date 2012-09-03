@@ -24,8 +24,11 @@ PS1='\u@\h:\[\033[0;34m\]\w\[\033[31m\]$(__git_ps1)\[\033[0m\]\$ '
 alias ls='ls -GF'
 
 
-# tmux - ensure 256 colors 
+# tmux - ensure 256 colors
 alias tmux="TERM=screen-256color-bce tmux"
+
+# Exhuberant ctags
+alias ctags="`brew --prefix`/bin/ctags"
 
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
