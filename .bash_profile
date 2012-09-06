@@ -34,6 +34,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 # enable shims and autocompletion for rbenv
 # eval "$(rbenv init -)"
 
+export PATH=/usr/local/bin:$PATH
 
 # machine-specific profile settings
 if [ -f ~/.machine_specific_profile ]; then
