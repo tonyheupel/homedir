@@ -1,10 +1,16 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/")
 
+;; Line number info on left
+(global-linum-mode t)
+
+;; Font
+(set-default-font "Monaco-14")
+
 ;; twilight color theme
 (add-to-list 'load-path "~/.emacs.d/plugins/color-theme/")
 (require 'color-theme)
 (color-theme-initialize)
-(load-file "~/.emacs.d/colors/twilight-emacs/color-theme-twilight.el")
+(color-theme-twilight)
 
 
 ;; js2-mode
