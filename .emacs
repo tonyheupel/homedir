@@ -1,5 +1,12 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/")
 
+;; twilight color theme
+(add-to-list 'load-path "~/.emacs.d/plugins/color-theme/")
+(require 'color-theme)
+(color-theme-initialize)
+(load-file "~/.emacs.d/colors/twilight-emacs/color-theme-twilight.el")
+
+
 ;; js2-mode
 ;;(autoload 'js2-mode "js2" nil t)
 ;;(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
@@ -47,7 +54,7 @@
 ;; Interactively Do Things (highly recommended, but not strictly required)
 (require 'ido)
 (ido-mode t)
-     
+
 ;; Rinari
 (add-to-list 'load-path "~/.emacs.d/plugins/rinari")
 (require 'rinari)
@@ -57,7 +64,7 @@
 
 ;;; nxml (HTML ERB template support)
 (load "~/.emacs.d/plugins/nxhtml/autostart.el")
-     
+
 (setq
  nxhtml-global-minor-mode t
  mumamo-chunk-coloring 'submode-colored

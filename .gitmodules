@@ -79,3 +79,6 @@
 [submodule ".vim/bundle/surround.vim"]
 	path = .vim/bundle/surround.vim
 	url = http://github.com/tpope/vim-surround
+[submodule ".emacs.d/colors/twilight-emacs"]
+	path = .emacs.d/colors/twilight-emacs
+	url = https://github.com/crafterm/twilight-emacs.git
