@@ -52,27 +52,27 @@
 
 ;; Rinari - Ruby on Rails Modes
 ;; Interactively Do Things (highly recommended, but not strictly required)
-(require 'ido)
-(ido-mode t)
+;;(require 'ido)
+;;(ido-mode t)
 
 ;; Rinari
-(add-to-list 'load-path "~/.emacs.d/plugins/rinari")
-(require 'rinari)
+;;(add-to-list 'load-path "~/.emacs.d/plugins/rinari")
+;;(require 'rinari)
 
 ;; Set tags to tags file for current project
-(setq rinari-tags-file-name "TAGS")
+;;(setq rinari-tags-file-name "TAGS")
 
 ;;; nxml (HTML ERB template support)
-(load "~/.emacs.d/plugins/nxhtml/autostart.el")
+;;(load "~/.emacs.d/plugins/nxhtml/autostart.el")
 
-(setq
- nxhtml-global-minor-mode t
- mumamo-chunk-coloring 'submode-colored
- nxhtml-skip-welcome t
- indent-region-mode t
- rng-nxml-auto-validate-flag nil
- nxml-degraded t)
-(add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo))
+;;(setq
+;; nxhtml-global-minor-mode t
+;; mumamo-chunk-coloring 'submode-colored
+;; nxhtml-skip-welcome t
+;; indent-region-mode t
+;; rng-nxml-auto-validate-flag nil
+;; nxml-degraded t)
+;;(add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo))
 
 ;; Scss/Sass
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/scss-mode.el"))
