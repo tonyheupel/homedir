@@ -66,13 +66,13 @@
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule ".emacs.d/plugins/coffee-mode"]
 	path = .emacs.d/plugins/coffee-mode
-	url = git://github.com/defunkt/coffee-mode.git
+	url = https://github.com/defunkt/coffee-mode.git
 [submodule ".emacs.d/plugins/rinari"]
 	path = .emacs.d/plugins/rinari
-	url = git://github.com/eschulte/rinari.git
+	url = https://github.com/eschulte/rinari.git
 [submodule ".emacs.d/plugins/textmate.el"]
 	path = .emacs.d/plugins/textmate.el
-	url = git://github.com/defunkt/textmate.el.git
+	url = https://github.com/defunkt/textmate.el.git
 [submodule ".vim/bundle/vim-json"]
 	path = .vim/bundle/vim-json
 	url = git://github.com/vim-scripts/vim-json-bundle.git

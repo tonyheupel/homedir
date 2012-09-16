@@ -1,0 +1,4 @@
+#Author : Christopher Roach <vthakr@gmail.com>
+#name : var name = require(file);
+# --
+var $1 = require('${1:file}');
