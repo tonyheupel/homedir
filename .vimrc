@@ -22,7 +22,7 @@ if has("gui_running")
   endif
 else
   set background=dark
-  " solarized options 
+  " solarized options
   let g:solarized_termcolors = 256
   let g:solarized_visibility = "high"
   let g:solarized_contrast = "high"
@@ -31,7 +31,7 @@ endif
 set cursorline
 
 set laststatus=2      " keep the status line on
-set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\ 
+set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\
 
 filetype plugin indent on
 
@@ -109,5 +109,5 @@ map <F4> :TlistToggle<cr>
 """ closetag plugin - filetype mappings
 """
 """ b:closetag_html_style=1 means it knows about <b>, <input>, etc.
-autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1  
+autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
