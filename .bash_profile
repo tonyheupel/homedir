@@ -10,7 +10,12 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
         . /opt/local/etc/bash_completion
   fi
 
-# Include my Git integration
+# use newer git-prompt.sh to get __git_ps1 defined now
+if [ -f /usr/local/git/contrib/completion/git-prompt.sh ]; then
+    . /usr/local/git/contrib/completion/git-prompt.sh
+  fi
+
+  # Include my Git integration
 # if [ -f ~/.homedir/git_prompt.sh ]; then
 #   . ~/.homedir/git_prompt.sh
 # fi
