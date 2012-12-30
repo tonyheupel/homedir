@@ -12,11 +12,14 @@
 (color-theme-initialize)
 (color-theme-twilight)
 
-;; package managment
+;; package management
 (require 'package)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
+;; erlang mode
+(add-to-list 'load-path "/usr/local/opt/erlang/lib/erlang/lib/tools-2.6.8/emacs/")
+(require 'erlang-start)
 
 ;; js2-mode
 ;;(autoload 'js2-mode "js2" nil t)
