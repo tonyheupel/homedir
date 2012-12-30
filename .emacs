@@ -12,6 +12,11 @@
 (color-theme-initialize)
 (color-theme-twilight)
 
+;; package managment
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
 
 ;; js2-mode
 ;;(autoload 'js2-mode "js2" nil t)
