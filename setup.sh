@@ -50,6 +50,18 @@ if [ ! -d $DIR/.vim/_temp ]; then
   mkdir $DIR/.vim/_temp
 fi
 
+# Create backup and autosave folders for emacs if they don't exist already
+echo "Creating _backup and _autosave folders for emacs..."
+if [ ! -d $DIR/.emacs.d/_backup ]; then
+  echo "Creating $DIR/.vim/_backup..."
+  mkdir $DIR/.emacs.d/_backup
+fi
+
+if [ ! -d $DIR/.emacs.d/_autosave ]; then
+  echo "Creating $DIR/.emacs.d/_autosave..."
+  mkdir $DIR/.emacs.d/_autosave
+fi
+
 # Install Command-T VIM plugin
 cd $DIR/.vim/bundle/command-t
 rake make

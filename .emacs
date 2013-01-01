@@ -1,5 +1,19 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/")
 
+;; Hide those pesky backup files
+(setq backup-directory-alist '(("." . "~/.emacs.d/_backup"))
+  backup-by-copying t    ; Don't delink hardlinks
+  version-control t      ; Use version numbers on backups
+  delete-old-versions t  ; Automatically delete excess backups
+  kept-new-versions 20   ; how many of the newest versions to keep
+  kept-old-versions 5    ; and how many of the old
+  )
+
+;; Hide autosave files
+(setq auto-save-file-name-transforms
+  `((".*" , "~/.emacs.d/_autosave/" t)))
+
+
 ;; Line number info on left
 (global-linum-mode t)
 
