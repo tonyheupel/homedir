@@ -4,3 +4,5 @@ backups
 .vim/_temp/**
 **~
 .emacs.d/ac-comphist.dat
+.emacs.d/_backup/**
+.emacs.d/_autosave/**

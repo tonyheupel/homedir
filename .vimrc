@@ -50,7 +50,7 @@ nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 
 " List chars
 set listchars=""                  " Reset the listchars
-set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
+set listchars=tab:\ \             " a tab should display as " ", trailing whitespace as "."
 set listchars+=trail:.            " show trailing spaces as dots
 set listchars+=extends:>          " The character to show in the last column when wrap is
                                   " off and the line continues beyond the right of the screen
@@ -111,3 +111,10 @@ map <F4> :TlistToggle<cr>
 """ b:closetag_html_style=1 means it knows about <b>, <input>, etc.
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
+
+
+"""
+""" File Type specific indentation rules
+"""
+au FileType python,erlang setl shiftwidth=4 tabstop=4
+au FileType go setl shiftwidth=8 tabstop=8 noexpandtab
