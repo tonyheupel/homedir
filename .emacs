@@ -21,6 +21,10 @@
 (add-to-list 'load-path "/usr/local/opt/erlang/lib/erlang/lib/tools-2.6.8/emacs/")
 (require 'erlang-start)
 
+;; go mode (golang)
+(add-to-list 'load-path "/usr/local/Cellar/go/1.0.3/misc/emacs/")
+(require 'go-mode-load)
+
 ;; js2-mode
 ;;(autoload 'js2-mode "js2" nil t)
 ;;(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
