@@ -8,7 +8,7 @@ set ruler             " Show line and column number
 syntax on             " Turn on syntax highlighting allowing local overrides
 set encoding=utf-8    " Set default encoding to UTF-8
 
-set guifont=Menlo\ Regular:h15
+set guifont=Menlo\ Regular:h14
 
 if has("gui_running")
   " Use Twilight in GUI
@@ -22,11 +22,12 @@ if has("gui_running")
   endif
 else
   set background=dark
+  colorscheme twilight256
   " solarized options
-  let g:solarized_termcolors = 256
-  let g:solarized_visibility = "high"
-  let g:solarized_contrast = "high"
-  colorscheme solarized
+"  let g:solarized_termcolors = 256
+"  let g:solarized_visibility = "high"
+"  let g:solarized_contrast = "high"
+"  colorscheme solarized
 endif
 set cursorline
 
