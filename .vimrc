@@ -117,4 +117,4 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 """ File Type specific indentation rules
 """
 au FileType python,erlang setl shiftwidth=4 tabstop=4
-au FileType go setl shiftwidth=8 tabstop=8 noexpandtab
+au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
