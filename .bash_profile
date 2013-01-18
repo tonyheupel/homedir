@@ -42,6 +42,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 export PATH=/usr/local/bin:$PATH
 
 export GOPATH=$HOME/Projects/go
+export PATH=$PATH:$HOME/Projects/go/bin
 
 # machine-specific profile settings
 if [ -f ~/.machine_specific_profile ]; then
