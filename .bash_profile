@@ -41,6 +41,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 export PATH=/usr/local/bin:$PATH
 
+export GOROOT=/usr/local/Cellar/go/1.0.3
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$HOME/Projects/go/bin
 
