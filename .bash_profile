@@ -49,3 +49,12 @@ export PATH=$PATH:$HOME/Projects/go/bin
 if [ -f ~/.machine_specific_profile ]; then
   . ~/.machine_specific_profile
 fi
+
+##
+# Your previous /Users/theupel/.bash_profile file was backed up as /Users/theupel/.bash_profile.macports-saved_2013-01-28_at_15:11:03
+##
+
+# MacPorts Installer addition on 2013-01-28_at_15:11:03: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

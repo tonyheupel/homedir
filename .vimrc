@@ -119,3 +119,4 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 """
 au FileType python,erlang setl shiftwidth=4 tabstop=4
 au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
+au FileType java setl shiftwidth=4 tabstop=4 noexpandtab
