@@ -49,6 +49,11 @@ let mapleader="," " map leader to , instead of \
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 " Map <leader>w to 'remove all trailing whitespace'
 
+""
+"" Make {<cr> create open/close brackets with a line in between
+"" and place the cursor there
+imap {<cr> {<cr>}<c-o>O
+
 " List chars
 set listchars=""                  " Reset the listchars
 set listchars=tab:\ \             " a tab should display as " ", trailing whitespace as "."
