@@ -17,6 +17,10 @@
 ;; Line number info on left
 (global-linum-mode t)
 
+;; Hilight the current line
+(global-hl-line-mode 1)
+(set-face-background 'hl-line "#333")
+
 ;; Font
 (set-default-font "Monaco-14")
 
