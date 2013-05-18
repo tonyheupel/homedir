@@ -43,7 +43,7 @@ export PATH=/usr/local/bin:$PATH
 
 export GOROOT=/usr/local/Cellar/go/1.0.3
 export GOPATH=$HOME/Projects/go
-export PATH=$PATH:$HOME/Projects/go/bin
+export PATH=$PATH:$HOME/Projects/go/bin:$HOME/Library/Haskell/bin:
 
 # machine-specific profile settings
 if [ -f ~/.machine_specific_profile ]; then
