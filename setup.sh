@@ -33,6 +33,7 @@ ln -s $DIR/.bash_profile
 ln -s $DIR/.tm_properties
 ln -s $DIR/.vim
 ln -s $DIR/.vimrc
+ln -s $DIR/.ctags
 ln -s $DIR/.emacs.d
 ln -s $DIR/.emacs
 ln -s $DIR/.gitconfig
