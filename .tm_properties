@@ -3,8 +3,9 @@ include = "{.tm_properties,.htaccess}"
 
 TM_HG  = "/usr/local/bin/hg"
 TM_GIT = "/usr/local/bin/git"
+TM_RUBY = "rvm-auto-ruby"
 
-PATH = "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/tony/.rvm/bin:/usr/local/mysql/bin"
+PATH = "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/theupel/.rvm/bin:/Users/tony/.rvm/bin:/usr/local/mysql/bin"
 
 [ "/usr/include/{**/,}*" ]
 tabSize = 8
