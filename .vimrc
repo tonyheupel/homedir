@@ -12,7 +12,7 @@ set guifont=Menlo\ Regular:h14
 
 if has("gui_running")
   " Use Twilight in GUI
-  colorscheme vwilight
+  colorscheme twilight
   " Only set size in GUI (let terminal version fill space)
   set lines=35
   set columns=120
@@ -22,7 +22,7 @@ if has("gui_running")
   endif
 else
   set background=dark
-  colorscheme twilight256
+  colorscheme twilight
   " solarized options
 "  let g:solarized_termcolors = 256
 "  let g:solarized_visibility = "high"
