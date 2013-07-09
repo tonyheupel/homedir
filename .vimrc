@@ -22,7 +22,7 @@ if has("gui_running")
   endif
 else
   set background=dark
-  colorscheme twilight
+  colorscheme twilight256
   " solarized options
 "  let g:solarized_termcolors = 256
 "  let g:solarized_visibility = "high"
