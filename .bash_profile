@@ -41,6 +41,9 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 export PATH=/usr/local/bin:$PATH
 
+PLAN9=/usr/local/plan9 export PLAN9
+PATH=$PATH:$PLAN9/bin   export PATH
+
 export GOROOT=/usr/local/Cellar/go/1.0.3
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$HOME/Projects/go/bin:$HOME/Library/Haskell/bin:
