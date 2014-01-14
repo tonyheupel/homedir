@@ -1,8 +1,8 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
 # Set git autocompletion and PS1 integration
-if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
-    . /usr/local/git/contrib/completion/git-completion.bash
+if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+    . /usr/local/etc/bash_completion.d/git-completion.bash
   fi
   GIT_PS1_SHOWDIRTYSTATE=true
 
@@ -11,8 +11,8 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
   fi
 
 # use newer git-prompt.sh to get __git_ps1 defined now
-if [ -f /usr/local/git/contrib/completion/git-prompt.sh ]; then
-    . /usr/local/git/contrib/completion/git-prompt.sh
+if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+    . /usr/local/etc/bash_completion.d/git-prompt.sh
   fi
 
   # Include my Git integration
