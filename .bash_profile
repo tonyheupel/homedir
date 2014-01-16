@@ -61,3 +61,8 @@ fi
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+#rbenv
+eval "$(rbenv init - --no-rehash)"
+
+#whitepages certs
+export SSL_CERT_FILE=/System/Library/OpenSSL/certs/WhitepagesCARoot.pem
