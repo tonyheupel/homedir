@@ -36,7 +36,7 @@
 (package-initialize)
 
 ;; erlang mode
-(add-to-list 'load-path "/usr/local/opt/erlang/lib/erlang/lib/tools-2.6.8/emacs/")
+(add-to-list 'load-path "/usr/local/lib/erlang/lib/tools-2.6.13/emacs/")
 (require 'erlang-start)
 
 ;; go mode (golang)
