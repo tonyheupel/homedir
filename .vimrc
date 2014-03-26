@@ -12,7 +12,7 @@ set guifont=Menlo\ Regular:h14
 
 if has("gui_running")
   " Use Twilight in GUI
-  colorscheme vwilight
+  colorscheme twilight
   " Only set size in GUI (let terminal version fill space)
   set lines=35
   set columns=120
@@ -124,4 +124,4 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 """
 au FileType python,erlang setl shiftwidth=4 tabstop=4
 au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
-au FileType c,java,rust,xml setl shiftwidth=4 tabstop=4 noexpandtab
+au FileType c,java,rust,xml,ant setl shiftwidth=4 tabstop=4 noexpandtab
