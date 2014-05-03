@@ -40,9 +40,6 @@
 [submodule ".vim/bundle/tasklist.vim"]
 	path = .vim/bundle/tasklist.vim
 	url = https://github.com/vim-scripts/TaskList.vim.git
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/vim-scripts/The-NERD-tree.git
 [submodule ".vim/bundle/pyflakes"]
 	path = .vim/bundle/pyflakes
 	url = https://github.com/mitechie/pyflakes-pathogen.git
@@ -85,3 +82,9 @@
 [submodule ".vim/bundle/vim-javascript-syntax"]
 	path = .vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
+[submodule ".vim/bundle/fsharp"]
+	path = .vim/bundle/fsharp
+	url = git://github.com/kongo2002/fsharp-vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git

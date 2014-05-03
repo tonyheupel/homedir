@@ -96,6 +96,11 @@ set backupdir=~/.vim/_backup/    " where to put backup files.
 set directory=~/.vim/_temp/      " where to put swap files.
 
 ""
+"" NERDTree
+""
+map <leader>n :NERDTreeToggle<CR>
+
+""
 "" Task List
 ""
 map <leader>td <Plug>TaskList
@@ -122,6 +127,6 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 """
 """ File Type specific indentation rules
 """
-au FileType python,erlang setl shiftwidth=4 tabstop=4
+au FileType python,erlang,fs setl shiftwidth=4 tabstop=4
 au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
 au FileType c,java,rust,xml,ant setl shiftwidth=4 tabstop=4 noexpandtab

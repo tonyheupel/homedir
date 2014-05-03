@@ -48,6 +48,7 @@ export GOROOT=/usr/local/Cellar/go/1.0.3
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$HOME/Projects/go/bin:$HOME/Library/Haskell/bin:
 export PATH=$PATH:$HOME/Projects/android-sdk/tools:$HOME/Projects/android-sdk/platform-tools:
+export MONO_GAC_PREFIX="/usr/local"
 
 # machine-specific profile settings
 if [ -f ~/.machine_specific_profile ]; then
