@@ -123,6 +123,29 @@ map <F4> :TlistToggle<cr>
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
 
+"""
+""" go settings for use with vim-go plugin
+"""
+"" Show interfaces the type under the cursor implements
+au FileType go nmap <Leader>s <Plug>(go-implements)
+"" Show type info for symbol under cursor
+au FileType go nmap <Leader>i <Plug>(go-info)
+"" Open godoc horizontally or vertically
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+"" Open godoc in browser
+au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
+"" go build, run, test, coverage
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
+"" Like gd for opening definition in current buffer, but these open in:
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
+au FileType go nmap <Leader>dt <Plug>(go-def-tab)
+"" Rename identifier under cursor to new name (refactor)
+au FileType go nmap <Leader>e <Plug>(go-rename)
 
 """
 """ File Type specific indentation rules
