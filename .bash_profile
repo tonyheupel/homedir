@@ -43,12 +43,13 @@ export PATH=/usr/local/bin:$PATH
 
 PLAN9=/usr/local/plan9 export PLAN9
 PATH=$PATH:$PLAN9/bin   export PATH
-
-export GOROOT=/usr/local/Cellar/go/1.4.1/libexec
+export GOROOT=`go env GOROOT`
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$HOME/Projects/go/bin:$HOME/Library/Haskell/bin:
 export PATH=$PATH:$HOME/Projects/android-sdk/tools:$HOME/Projects/android-sdk/platform-tools:
 export PATH=$PATH:$HOME/Projects/dart-sdk/bin:
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
 export MONO_GAC_PREFIX="/usr/local"
 
 # machine-specific profile settings
@@ -63,4 +64,7 @@ fi
 # MacPorts Installer addition on 2013-01-28_at_15:11:03: adding an appropriate PATH variable for use with MacPorts.
 export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
+
+# ASP.NET vNext
+source kvm.sh
 
