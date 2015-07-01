@@ -127,6 +127,8 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 """
 """ go settings for use with vim-go plugin
 """
+let g:go_fmt_command = "goimports"
+
 "" Show interfaces the type under the cursor implements
 au FileType go nmap <Leader>s <Plug>(go-implements)
 "" Show type info for symbol under cursor
