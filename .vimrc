@@ -155,4 +155,5 @@ au FileType go nmap <Leader>e <Plug>(go-rename)
 """
 au FileType python,erlang,fs setl shiftwidth=4 tabstop=4
 au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
+au FileType javascript setl shiftwidth=4 tabstop=4
 au FileType c,java,rust,xml,ant,javascript setl shiftwidth=4 tabstop=4 noexpandtab
