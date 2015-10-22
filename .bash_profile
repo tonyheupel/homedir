@@ -35,6 +35,10 @@ alias tmux="TERM=screen-256color-bce tmux"
 # Exhuberant ctags
 alias ctags="`brew --prefix`/bin/ctags"
 
+# docker-compose, docker-machine, etc.
+alias dcom='docker-compose'
+alias dmac='docker-machine'
+
 # rbenv --> Unix-style ruby runtime manager
 # enable shims and autocompletion for rbenv
 # eval "$(rbenv init -)"
