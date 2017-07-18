@@ -1,6 +1,6 @@
 # Install the latest version of homedir
 cd ~
-git clone git@github.com:tchype/homedir.git .homedir
+git clone git@github.com:heupel/homedir.git .homedir
 cd .homedir
 git submodule update --init
 cd ~
