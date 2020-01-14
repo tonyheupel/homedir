@@ -1,19 +1,20 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
 # Set git autocompletion and PS1 integration
-if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
-    . /usr/local/etc/bash_completion.d/git-completion.bash
-  fi
-  GIT_PS1_SHOWDIRTYSTATE=true
+if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
+    . /usr/local/git/contrib/completion/git-completion.bash
+fi
 
-  if [ -f /opt/local/etc/bash_completion ]; then
-        . /opt/local/etc/bash_completion
-  fi
+GIT_PS1_SHOWDIRTYSTATE=true
+
+#  if [ -f /opt/local/git/contrib ]; then
+#        . /opt/local/git/contrib
+#  fi
 
 # use newer git-prompt.sh to get __git_ps1 defined now
-if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
-    . /usr/local/etc/bash_completion.d/git-prompt.sh
-  fi
+if [ -f /usr/local/git/contrib/completion/git-prompt.sh ]; then
+    . /usr/local/git/contrib/completion/git-prompt.sh
+fi
 
   # Include my Git integration
 # if [ -f ~/.homedir/git_prompt.sh ]; then
@@ -35,18 +36,8 @@ alias tmux="TERM=screen-256color-bce tmux"
 # Exhuberant ctags
 alias ctags="`brew --prefix`/bin/ctags"
 
-# docker-compose, docker-machine, etc.
-alias dcom='docker-compose'
-alias dmac='docker-machine'
-
-# rbenv --> Unix-style ruby runtime manager
-# enable shims and autocompletion for rbenv
-# eval "$(rbenv init -)"
-
 export PATH=/usr/local/bin:$PATH
 
-PLAN9=/usr/local/plan9 export PLAN9
-PATH=$PATH:$PLAN9/bin   export PATH
 export GOROOT=`go env GOROOT`
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$HOME/Projects/go/bin:$HOME/Library/Haskell/bin:
@@ -67,8 +58,4 @@ fi
 
 # MacPorts Installer addition on 2013-01-28_at_15:11:03: adding an appropriate PATH variable for use with MacPorts.
 export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-# ASP.NET vNext
-source kvm.sh
 
