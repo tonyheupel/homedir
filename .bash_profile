@@ -59,3 +59,7 @@ fi
 # MacPorts Installer addition on 2013-01-28_at_15:11:03: adding an appropriate PATH variable for use with MacPorts.
 export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

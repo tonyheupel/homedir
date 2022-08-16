@@ -21,15 +21,15 @@ if has("gui_running")
     set guifont=Consolas:h12:cANSI
   endif
 else
-  "set background=dark
-  "colorscheme twilight256
+  set background=dark
+  colorscheme twilight256
+  "colorscheme molokai
   " solarized options
 "  let g:solarized_termcolors = 256
 "  let g:solarized_visibility = "high"
 "  let g:solarized_contrast = "high"
 "  colorscheme solarized
 endif
-colorscheme molokai
 set cursorline
 
 set laststatus=2      " keep the status line on
@@ -154,6 +154,6 @@ au FileType go nmap <Leader>e <Plug>(go-rename)
 """ File Type specific indentation rules
 """
 au FileType python,erlang,fs setl shiftwidth=4 tabstop=4
-au FileType go setl shiftwidth=8 tabstop=8 noexpandtab nolist
+au FileType go setl shiftwidth=2 tabstop=2 noexpandtab nolist
 au FileType javascript setl shiftwidth=4 tabstop=4
 au FileType c,java,rust,xml,ant,javascript setl shiftwidth=4 tabstop=4 noexpandtab

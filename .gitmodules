@@ -1,42 +1,6 @@
-[submodule ".vim/bundle/vim-rvm"]
-	path = .vim/bundle/vim-rvm
-	url = git://github.com/tpope/vim-rvm.git
-[submodule ".vim/bundle/vim-coffee-script"]
-	path = .vim/bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/jslint.vim"]
 	path = .vim/bundle/jslint.vim
 	url = git://github.com/tchype/jslint.vim
-[submodule ".vim/bundle/snipmate-nodejs"]
-	path = .vim/bundle/snipmate-nodejs
-	url = git://github.com/jamescarr/snipmate-nodejs.git
-[submodule ".vim/bundle/snipmate.vim"]
-	path = .vim/bundle/snipmate.vim
-	url = git://github.com/msanders/snipmate.vim.git
-[submodule ".vim/bundle/tabular"]
-	path = .vim/bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
-[submodule ".vim/bundle/vim-node"]
-	path = .vim/bundle/vim-node
-	url = git://github.com/guileen/vim-node.git
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
-[submodule ".vim/bundle/vim-repeat"]
-	path = .vim/bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule ".vim/bundle/vim-fugittive"]
-	path = .vim/bundle/vim-fugittive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/ack.vim"]
-	path = .vim/bundle/ack.vim
-	url = git://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/taglist.vim"]
-	path = .vim/bundle/taglist.vim
-	url = git://github.com/vim-scripts/taglist.vim.git
 [submodule ".vim/bundle/tasklist.vim"]
 	path = .vim/bundle/tasklist.vim
 	url = https://github.com/vim-scripts/TaskList.vim.git
@@ -52,36 +16,18 @@
 [submodule ".vim/bundle/pytest.vim"]
 	path = .vim/bundle/pytest.vim
 	url = https://github.com/alfredodeza/pytest.vim.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule ".emacs.d/plugins/coffee-mode"]
-	path = .emacs.d/plugins/coffee-mode
-	url = https://github.com/defunkt/coffee-mode.git
 [submodule ".emacs.d/plugins/rinari"]
 	path = .emacs.d/plugins/rinari
 	url = https://github.com/eschulte/rinari.git
 [submodule ".emacs.d/plugins/textmate.el"]
 	path = .emacs.d/plugins/textmate.el
 	url = https://github.com/defunkt/textmate.el.git
-[submodule ".vim/bundle/vim-json"]
-	path = .vim/bundle/vim-json
-	url = git://github.com/vim-scripts/vim-json-bundle.git
 [submodule ".vim/bundle/surround.vim"]
 	path = .vim/bundle/surround.vim
 	url = http://github.com/tpope/vim-surround
-[submodule ".vim/bundle/vim-ruby"]
-	path = .vim/bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
-[submodule ".vim/bundle/vim-scala"]
-	path = .vim/bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala.git
 [submodule ".vim/bundle/vim-javascript-syntax"]
 	path = .vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
-[submodule ".vim/bundle/fsharp"]
-	path = .vim/bundle/fsharp
-	url = git://github.com/kongo2002/fsharp-vim.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -90,7 +36,7 @@
 	url = git@github.com:dart-lang/dart-vim-plugin.git
 [submodule ".vim/bundle/vim-go"]
 	path = .vim/bundle/vim-go
-	url = http://github.com/fatih/vim-go.git
+	url = https://github.com/fatih/vim-go.git
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
