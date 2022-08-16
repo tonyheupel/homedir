@@ -33,7 +33,7 @@ endif
 set cursorline
 
 set laststatus=2      " keep the status line on
-set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ %{fugitive#statusline()}\ %=%L\ lines\ %l,%v\ %p%%\
+set statusline=\ %f%m%r%h%w%<\ %{&ff}\ %Y\ \ %=%L\ lines\ %l,%v\ %p%%\
 
 filetype plugin indent on
 
